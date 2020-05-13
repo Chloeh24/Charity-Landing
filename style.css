@@ -1,0 +1,204 @@
+
+main {
+  margin: 0 150px;
+  font-family: "Lexend Deca", sans-serif;
+  background-color: white;
+}
+
+#page-wrapper {
+  position: relative;
+}
+
+.container {
+  max-width: 1000px;
+  height: 50px;
+}
+
+header {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  max-height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  top: 0;
+  box-shadow: 1px 1px 2px #888888;
+}
+.logo {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+#nav-btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin: 5px;
+}
+
+.nav-link {
+  font-family: Arial, serif;
+  font-size: 18px;
+  display: block;
+  color: #282828;
+  border-radius: 7px;
+  text-align: center;
+  padding: 14px 35px;
+  text-decoration: none;
+}
+.nav-link:hover {
+  background-color: #c00000;
+  color: white;
+}
+
+#JoinUs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("https://www.goabroad.com/section_cloudinary/gaplabs/image/upload/images2/program_content/the-cold-hard-truth-about-the-refugee-crisis-and-international-volunteers-1-1465872166.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 0px;
+  border-radius: 7px;
+  color: white;
+}
+
+@media screen and (max-width: 992px) {
+  #Joinus,
+  h1,
+  #email,
+  #submit {
+    flex: 100%;
+  }
+}
+
+h1 {
+  font-size: 2rem;
+  text-shadow: 2px 2px 5px black;
+  padding: 5px;
+}
+
+#email {
+  height: 40px;
+  width: 270px;
+  font-size: 16px;
+}
+
+#submit {
+  display: block;
+  margin: 20px auto;
+  padding: 15px 40px;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+#submit:hover {
+  transition-duration: 0.3s;
+  background-color: #fec24a;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  font-size: 38px;
+}
+
+p,
+ul {
+  margin: 20px 90px 0 90px;
+  line-height: 25px;
+}
+
+#video {
+  display: block;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 900px) {
+  #video {
+    width: 440px;
+    height: 280px;
+  }
+}
+
+.campaign {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+@media screen and (max-width: 992px) {
+  #Greece,
+  #Calais,
+  #Lebanon {
+    width: 25vm;
+  }
+}
+
+.campaign-info {
+  display: block;
+  text-align: center;
+  margin: 0;
+}
+
+h3 {
+  color: #f0efef;
+  font-size: 40px;
+  text-shadow: 4px 4px black;
+  margin-top: 80px;
+}
+
+.btn {
+  padding: 12px 25px;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 10px;
+  background-color: orange;
+}
+
+#Greece {
+  background-image: url("https://cdn.cnn.com/cnnnext/dam/assets/160308125402-migrants-greece-full-169.jpg");
+  background-size: cover;
+  width: 320px;
+  height: 250px;
+}
+
+#Lebanon {
+  background-image: url("http://www.unhcr.org/thumb1/508668596.jpg");
+  background-size: cover;
+  width: 320px;
+  height: 250px;
+}
+
+#Calais {
+  background-image: url("https://www.dw.com/image/18823838_303.jpg");
+  background-size: cover;
+  width: 320px;
+  height: 250px;
+}
+
+#donate:hover {
+  transition-duration: 0.4s;
+  background-color: #645b4d;
+  color: white;
+}
+
+#footer-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  color: black;
+}
+
+#foot,
+a {
+  padding: 10px 20px;
+  font-size: 15px;
+  font-family: Arial, serif;
+  color: #272625;
+  text-decoration: none;
+}
